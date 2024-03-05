@@ -23,7 +23,21 @@ function z(type_of){
     else if(type_of==='about us'){
         username.innerHTML = "About us"
         username.style.color="green"
-    }
-    
+
+   
     
 }
+} 
+function func(){
+    
+    const username = document.getElementById('uname').value;
+    const password = document.getElementById('pwd').value;
+    let general=document.getElementById("gen");
+    
+    let hello = "<p>Username:"+ username + "</p> <p>PassWord:"+ password + "</p>";
+    
+    general.innerHTML= hello
+    document.getElementById('username').value = "";
+    document.getElementById('password').value = "";
+}
+   

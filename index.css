@@ -25,6 +25,12 @@
     .e{
         margin-left: 200px;
     }
+    .p{
+        font-size: 18px;
+    }
+    .q{
+        font-size: 18px;
+    }
     .des{
         text-align: center;
         margin-top: 50px;
@@ -51,4 +57,44 @@
     }
     #vinay{
         text-align: center;
+    }
+    .border{
+        width: 400px;
+        height: 300px; 
+        background-color: rgb(192, 159, 165); 
+        border: 2px solid #ccc;
+        border-radius: 10px; 
+        padding: 20px;
+        margin-top: 20px;
+        box-sizing: content-box;
+        margin: 150px; 
+        text-align: center;
+        font-size: 24px;
+        float: left;
+        
+    }
+    .username{
+        width:fit-content
+    }
+    .password{
+        width: fit-content;
+    }
+    input{
+      width: 200px;
+    }
+    .a{
+        font-size: 18px;
+    }
+    .b{
+        font-size: 18px;
+    }
+    #but:hover{
+        cursor: pointer;
+
+    }
+    #gen{
+        text-align: center;
+        float: left;
+        margin-top: 200px;
+        font-size: medium;
     }
